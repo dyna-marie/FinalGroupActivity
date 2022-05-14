@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70ebe2a8-5ea9-4680-909b-9d5c9f1b1e46" name="Changes" comment="" />
+    <list default="true" id="70ebe2a8-5ea9-4680-909b-9d5c9f1b1e46" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserInformationDontHack.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UserInformationDontHack.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/LogIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/finalGroupActivity/LogIn.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/finalGroupActivity/LogIn.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/finalGroupActivity/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finalGroupActivity/LogIn.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +20,18 @@
       <list>
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bf53ae94-d2a4-4936-bc66-c73fb664611e" />
+        <option name="url" value="https://github.com/dyna-marie/FinalGroupActivity.git" />
+      </UrlAndAccount>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -26,10 +46,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
-  <component name="RunManager" selected="Application.Registration">
+  <component name="RunManager" selected="Application.LogIn">
     <configuration name="LogIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="finalGroupActivity.LogIn" />
+      <module name="FinalGroupActivity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="finalGroupActivity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="finalGroupActivity.LoginForm" />
       <module name="FinalGroupActivity" />
       <extension name="coverage">
         <pattern>
@@ -54,10 +91,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationAndLoginApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="finalGroupActivity.RegistrationAndLoginApp" />
+      <module name="FinalGroupActivity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="finalGroupActivity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Registration" />
         <item itemvalue="Application.LogIn" />
+        <item itemvalue="Application.Registration" />
+        <item itemvalue="Application.LoginForm" />
+        <item itemvalue="Application.RegistrationAndLoginApp" />
       </list>
     </recent_temporary>
   </component>
@@ -70,10 +122,47 @@
       <option name="presentableId" value="Default" />
       <updated>1652432950932</updated>
       <workItem from="1652432952073" duration="942000" />
+      <workItem from="1652446672564" duration="516000" />
+      <workItem from="1652447270915" duration="1127000" />
+      <workItem from="1652448445321" duration="29000" />
+      <workItem from="1652448922919" duration="143000" />
+      <workItem from="1652449158396" duration="1915000" />
+      <workItem from="1652503270671" duration="349000" />
+      <workItem from="1652509686262" duration="3229000" />
+      <workItem from="1652514567088" duration="2456000" />
+      <workItem from="1652517094737" duration="4452000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
