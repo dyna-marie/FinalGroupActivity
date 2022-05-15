@@ -32,6 +32,7 @@ public class LogIn extends JFrame {
         createAnAccountButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                Registration myForm = new Registration(null);
                 registerUser();
             }
         });
