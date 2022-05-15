@@ -67,17 +67,17 @@ public class LogIn extends JFrame {
                             }
                         }
                         if(username.contains(user) && password.contains(pass)){
-                            JOptionPane.showMessageDialog(null,"Login Successfull.");
+                            JOptionPane.showMessageDialog(null,"Login Successful.");
                             tfUsername.setText("");
                             pfPassword.setText("");
                         }else{
-                            JOptionPane.showMessageDialog(null,"User Does Not Exists.");
+                            JOptionPane.showMessageDialog(null,"User Does Not Exist.");
                         }
                     }else{
                         JOptionPane.showMessageDialog(null,"File Not Found.");
                     }
                 } catch (IOException e){
-                    JOptionPane.showMessageDialog(null,"Exception Error Occured");
+                    JOptionPane.showMessageDialog(null,"Exception Error Occurred");
                     e.printStackTrace();
                 }
             }
