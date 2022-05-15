@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70ebe2a8-5ea9-4680-909b-9d5c9f1b1e46" name="Changes" comment="Login">
+    <list default="true" id="70ebe2a8-5ea9-4680-909b-9d5c9f1b1e46" name="Changes" comment="Create account button is now working in LogInForm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserInformationDontHack.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UserInformationDontHack.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/LogIn$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/LogIn$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/LogIn$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/LogIn$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/LogIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/finalGroupActivity/LogIn.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/finalGroupActivity/LogIn.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/finalGroupActivity/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finalGroupActivity/LogIn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +25,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -42,10 +54,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/finalGroupActivity" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gerwin\Documents\GitHub\FinalGroupActivity\src\finalGroupActivity" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.LogIn">
     <configuration name="LogIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -127,7 +145,7 @@
       <workItem from="1652509686262" duration="3229000" />
       <workItem from="1652514567088" duration="2456000" />
       <workItem from="1652517094737" duration="4668000" />
-      <workItem from="1652602360838" duration="598000" />
+      <workItem from="1652602360838" duration="6327000" />
     </task>
     <task id="LOCAL-00001" summary="Login">
       <created>1652521766646</created>
@@ -143,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652602463270</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create account button is now working in LogInForm">
+      <created>1652603051143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652603051143</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +200,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login" />
+    <MESSAGE value="Create account button is now working in LogInForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create account button is now working in LogInForm" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

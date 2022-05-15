@@ -9,16 +9,13 @@ import java.util.ArrayList;
 
 public class LogIn extends JFrame {
     private JPasswordField pfPassword;
-    private JTextField tfAge;
     private JTextField tfUsername;
-    private JPasswordField pfConfirmPassword;
-    private JTextField tfName;
     private JButton createAnAccountButton;
     private JButton logInButton;
     private JPanel logInForm;
 
     public LogIn(JFrame parent){
-        setTitle("Create a New Account");
+        setTitle("Login to Account");
         setContentPane(logInForm);
         setMinimumSize(new Dimension(490,500));
         setLocationRelativeTo(parent);
@@ -36,6 +33,7 @@ public class LogIn extends JFrame {
                 registerUser();
             }
         });
+
     }
 
 
@@ -45,7 +43,7 @@ public class LogIn extends JFrame {
     private void logInUser() {
         try{
             String user = tfUsername.getText();
-            String pass = pfPassword.getText();
+            String pass = String.valueOf(pfPassword.getPassword());
             ArrayList<String> username = new ArrayList<String>();
             ArrayList<String> password = new ArrayList<String>();
             if(user.isEmpty() || pass.isEmpty()){
@@ -88,6 +86,9 @@ public class LogIn extends JFrame {
     }
 
     private void registerUser() {
+        JTextField tfName = new JTextField();
+        JTextField tfAge = new JTextField();
+        JPasswordField pfConfirmPassword = new JPasswordField();
         String name = tfName.getText();
         String username = tfUsername.getText();
         String age = tfAge.getText();
@@ -120,7 +121,7 @@ public class LogIn extends JFrame {
 
         try{
             FileWriter writer = new FileWriter("UserInformationDontHack.txt",true);
-            writer.write("" + name + " " + username + " " + age + " " + password + " " + confirmPassword);
+            writer.write("" + name + ", " + username + ", " + age + ", " + password + ", ");
             writer.write(System.getProperty("line.separator"));
             writer.close();
             JOptionPane.showMessageDialog(this, "Account Successfully Created");
@@ -129,6 +130,7 @@ public class LogIn extends JFrame {
         }catch (Exception e){
             JOptionPane.showMessageDialog(this,"ERROR");
         }
+    System.exit(0);
     }
     public static void main(String[] args) {
         LogIn myForm = new LogIn(null);
