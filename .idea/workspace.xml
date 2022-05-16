@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70ebe2a8-5ea9-4680-909b-9d5c9f1b1e46" name="Changes" comment="Create account button is now working in LogInForm">
+    <list default="true" id="70ebe2a8-5ea9-4680-909b-9d5c9f1b1e46" name="Changes" comment="Not sure on why once create account button is pressed it would show the optionpane">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserInformationDontHack.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UserInformationDontHack.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/LogIn$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/LogIn$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/LogIn$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/LogIn$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/LogIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/finalGroupActivity/LogIn.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/finalGroupActivity/LogIn.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/finalGroupActivity/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finalGroupActivity/LogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/finalGroupActivity/RegistrationAndLoginApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finalGroupActivity/RegistrationAndLoginApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +140,7 @@
       <workItem from="1652509686262" duration="3229000" />
       <workItem from="1652514567088" duration="2456000" />
       <workItem from="1652517094737" duration="4668000" />
-      <workItem from="1652602360838" duration="6327000" />
+      <workItem from="1652602360838" duration="6781000" />
     </task>
     <task id="LOCAL-00001" summary="Login">
       <created>1652521766646</created>
@@ -168,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652603051143</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Not sure on why once create account button is pressed it would show the optionpane">
+      <created>1652609578501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652609578501</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +203,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login" />
     <MESSAGE value="Create account button is now working in LogInForm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create account button is now working in LogInForm" />
+    <MESSAGE value="Not sure on why once create account button is pressed it would show the optionpane" />
+    <option name="LAST_COMMIT_MESSAGE" value="Not sure on why once create account button is pressed it would show the optionpane" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
