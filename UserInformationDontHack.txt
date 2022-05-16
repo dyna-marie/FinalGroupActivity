@@ -1,4 +1,4 @@
-josuke higashitaka gappy 18 softwet softwet
-Koichi Best Boy 16 killdahoe killdahoe
-Yoshikage Kira ILoveHands 33 bitesthedust bitesthedust
-Giorno Giovanna Gio Gio 17 golden golden
+josuke higashitaka, gappy, 18, softwet
+Koichi, Best Boy, 16, killdahoe
+Yoshikage Kira, ILoveHands, 33, bitesthedust
+Giorno Giovanna, Gio Gio, 17, golden

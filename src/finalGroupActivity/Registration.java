@@ -62,7 +62,7 @@ public class Registration extends JFrame {
 
         try{
             FileWriter writer = new FileWriter("UserInformationDontHack.txt",true);
-            writer.write("" + name + " " + username + " " + age + " " + password + " " + confirmPassword);
+            writer.write("" + name + ", " + username + ", " + age + ", " + password + ", " + confirmPassword);
             writer.write(System.getProperty("line.separator"));
             writer.close();
             JOptionPane.showMessageDialog(this, "Account Successfully Created");
@@ -71,6 +71,7 @@ public class Registration extends JFrame {
         }catch (Exception e){
             JOptionPane.showMessageDialog(this,"ERROR");
         }
+        System.exit(1);
     }
 
     public static void main(String[] args) {

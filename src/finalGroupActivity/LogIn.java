@@ -30,7 +30,7 @@ public class LogIn extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Registration myForm = new Registration(null);
-                registerUser();
+
             }
         });
 
@@ -85,53 +85,6 @@ public class LogIn extends JFrame {
         }
     }
 
-    private void registerUser() {
-        JTextField tfName = new JTextField();
-        JTextField tfAge = new JTextField();
-        JPasswordField pfConfirmPassword = new JPasswordField();
-        String name = tfName.getText();
-        String username = tfUsername.getText();
-        String age = tfAge.getText();
-        String password = String.valueOf(pfPassword.getPassword());
-        String confirmPassword = String.valueOf(pfConfirmPassword.getPassword());
-
-        if (name.isEmpty() || username.isEmpty() || age.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()){
-            JOptionPane.showMessageDialog(this,
-                    "Please enter all fields",
-                    "Please Try again",
-                    JOptionPane.ERROR_MESSAGE);
-            return;
-
-        }
-        if (!password.equals(confirmPassword)){
-            JOptionPane.showMessageDialog(this,
-                    "Passwords do not match",
-                    "Please Try Again",
-                    JOptionPane.ERROR_MESSAGE);
-            return;
-        }
-
-        if (password.length() < 6){
-            JOptionPane.showMessageDialog(this,
-                    "Password must have more than 5 characters",
-                    "Please Try Again",
-                    JOptionPane.ERROR_MESSAGE);
-            return;
-        }
-
-        try{
-            FileWriter writer = new FileWriter("UserInformationDontHack.txt",true);
-            writer.write("" + name + ", " + username + ", " + age + ", " + password + ", ");
-            writer.write(System.getProperty("line.separator"));
-            writer.close();
-            JOptionPane.showMessageDialog(this, "Account Successfully Created");
-            setVisible(false);
-            new Registration(this).setVisible(true);
-        }catch (Exception e){
-            JOptionPane.showMessageDialog(this,"ERROR");
-        }
-    System.exit(0);
-    }
     public static void main(String[] args) {
         LogIn myForm = new LogIn(null);
     }

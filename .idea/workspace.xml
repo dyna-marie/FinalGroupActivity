@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="70ebe2a8-5ea9-4680-909b-9d5c9f1b1e46" name="Changes" comment="Not sure on why once create account button is pressed it would show the optionpane">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/finalGroupActivity/RegistrationAndLoginApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finalGroupActivity/RegistrationAndLoginApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserInformationDontHack.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UserInformationDontHack.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/RegistrationAndLoginApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalGroupActivity/finalGroupActivity/RegistrationAndLoginApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/finalGroupActivity/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finalGroupActivity/LogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/finalGroupActivity/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finalGroupActivity/Registration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +144,7 @@
       <workItem from="1652514567088" duration="2456000" />
       <workItem from="1652517094737" duration="4668000" />
       <workItem from="1652602360838" duration="6781000" />
+      <workItem from="1652689190773" duration="3238000" />
     </task>
     <task id="LOCAL-00001" summary="Login">
       <created>1652521766646</created>
@@ -170,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652609578501</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Not sure on why once create account button is pressed it would show the optionpane">
+      <created>1652689338913</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652689338913</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
