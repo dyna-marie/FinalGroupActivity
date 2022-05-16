@@ -71,7 +71,7 @@ public class Registration extends JFrame {
         }catch (Exception e){
             JOptionPane.showMessageDialog(this,"ERROR");
         }
-        System.exit(1);
+        System.exit(0);
     }
 
     public static void main(String[] args) {
