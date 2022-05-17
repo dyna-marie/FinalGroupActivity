@@ -36,21 +36,17 @@ public class LogIn extends JFrame {
 
     }
 
-
-    /*
-    LOGIN NOT COMPLETELY WORKING YET
-     */
     private void logInUser() {
         try{
             String user = tfUsername.getText();
             String pass = String.valueOf(pfPassword.getPassword());
-            ArrayList<String> username = new ArrayList<String>();
-            ArrayList<String> password = new ArrayList<String>();
+            String username = "";
+            String password = "";
             if(user.isEmpty() || pass.isEmpty()){
                 JOptionPane.showMessageDialog(null,"Field Should Not Be Empty!!!");
             }else{
                 try {
-                    String path = "C:\\Users\\Gerwin\\Documents\\GitHub\\FinalGroupActivity\\UserInformationDontHack.txt";
+                    String path = "d:\\Users\\user\\Documents\\GitHub\\FinalGroupActivity\\UserInformationDontHack.txt";
                     File file = new File(path);
                     FileReader fr=new FileReader(file);
                     BufferedReader br=new BufferedReader(fr);
@@ -58,12 +54,8 @@ public class LogIn extends JFrame {
                     if(file.exists()){
                         while((line = br.readLine()) != null) {
                             String[] columns = line.split(",");
-                            for(int i=0;i<columns.length;i=i+4){
-                                username.add(columns[i]);
-                            }
-                            for(int i=1;i<columns.length;i=i+4){
-                                password.add(columns[i]);
-                            }
+                            username = columns[1];
+                            password = columns[4];
                         }
                         if(username.contains(user) && password.contains(pass)){
                             JOptionPane.showMessageDialog(null,"Login Successful.");
