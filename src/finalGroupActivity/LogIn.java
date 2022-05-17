@@ -33,7 +33,6 @@ public class LogIn extends JFrame {
 
             }
         });
-
     }
 
     private void logInUser() {
