@@ -1,4 +1,2 @@
-josuke higashitaka,gappy,18,softwet,softwet
 Koichi,Best Boy,16,killdahoe,killdahoe
-Yoshikage Kira,ILoveHands,33,bitethedust,bitethedust
-Giorno Giovanna,Gio Gio,17,golden,golden
+kira,ILoveHands,33,bitethedust,bitethedust
