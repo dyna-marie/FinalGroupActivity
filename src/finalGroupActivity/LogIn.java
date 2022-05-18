@@ -64,7 +64,7 @@ public class LogIn extends JFrame {
                             pfPassword.setText("");
                         }else{
                             JOptionPane.showMessageDialog(null,"User Does Not Exist.");
-                        }
+                        } //end of if-else statement
                     }else{
                         JOptionPane.showMessageDialog(null,"File Not Found.");
                     } //end of if-else statement
