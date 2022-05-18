@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 import java.io.FileWriter;
 
 public class Registration extends JFrame {
+    //declare variables
     private JPasswordField pfPassword;
     private JTextField tfAge;
     private JTextField tfUsername;
@@ -27,7 +28,7 @@ public class Registration extends JFrame {
                 registerUser();
             }
         });
-    }
+    } //end of Registration() method
 
     private void registerUser() {
         String name = tfName.getText();
@@ -42,15 +43,15 @@ public class Registration extends JFrame {
                     "Please Try again",
                     JOptionPane.ERROR_MESSAGE);
             return;
-
-        }
+        } //end of if statement
+        
         if (!password.equals(confirmPassword)){
             JOptionPane.showMessageDialog(this,
                     "Passwords do not match",
                     "Please Try Again",
                     JOptionPane.ERROR_MESSAGE);
             return;
-        }
+        } //end of if statement
 
         if (password.length() < 6){
             JOptionPane.showMessageDialog(this,
@@ -58,7 +59,7 @@ public class Registration extends JFrame {
                     "Please Try Again",
                     JOptionPane.ERROR_MESSAGE);
             return;
-        }
+        } //end of if statement
 
         try{
             FileWriter writer = new FileWriter("UserInformationDontHack.txt",true);
@@ -70,12 +71,13 @@ public class Registration extends JFrame {
             new Registration(this).setVisible(true);
         }catch (Exception e){
             JOptionPane.showMessageDialog(this,"ERROR");
-        }
+        } //end of try-catch statement
+        
         System.exit(0);
-    }
+    } //end of registerUser() method
 
     public static void main(String[] args) {
         Registration myForm = new Registration(null);
-    }
-}
+    } //end of main method
+} //end of Registration class
 
