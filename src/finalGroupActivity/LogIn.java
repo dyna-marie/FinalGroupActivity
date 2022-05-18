@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 import java.io.*;
 
 public class LogIn extends JFrame {
+    //declare variables
     private JPasswordField pfPassword;
     private JTextField tfUsername;
     private JButton createAnAccountButton;
@@ -29,10 +30,9 @@ public class LogIn extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Registration myForm = new Registration(null);
-
             }
         });
-    }
+    } //end of LogIn() method
 
     private void logInUser() {
         try{
@@ -57,7 +57,7 @@ public class LogIn extends JFrame {
                             if(username.contains(user) && password.contains(pass)){
                                 break;
                             }
-                        }
+                        } //end of while loop
                         if(username.contains(user) && password.contains(pass)){
                             JOptionPane.showMessageDialog(null,"Login Successful.");
                             tfUsername.setText("");
@@ -67,19 +67,19 @@ public class LogIn extends JFrame {
                         }
                     }else{
                         JOptionPane.showMessageDialog(null,"File Not Found.");
-                    }
+                    } //end of if-else statement
                 } catch (IOException e){
                     JOptionPane.showMessageDialog(null,"Exception Error Occurred");
                     e.printStackTrace();
-                }
-            }
+                } //end of try-catch statement
+            } //end of if-else statement
         }catch(Exception e){
             e.printStackTrace();
-        }
-    }
+        } //end of try-catch statement
+    } //end of logInUser() method
 
     public static void main(String[] args) {
         LogIn myForm = new LogIn(null);
-    }
-}
+    } //end of main method
+} //end of LogIn class
 
