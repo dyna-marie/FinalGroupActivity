@@ -54,6 +54,9 @@ public class LogIn extends JFrame {
                             String[] columns = line.split(",");
                             username = columns[1];
                             password = columns[4];
+                            if(username.contains(user) && password.contains(pass)){
+                                break;
+                            }
                         }
                         if(username.contains(user) && password.contains(pass)){
                             JOptionPane.showMessageDialog(null,"Login Successful.");
