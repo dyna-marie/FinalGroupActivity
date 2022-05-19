@@ -26,6 +26,7 @@ public class LogIn extends JFrame {
                 logInUser();
             }
         });
+        // Opens Registration Form
         createAnAccountButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -40,9 +41,11 @@ public class LogIn extends JFrame {
             String pass = String.valueOf(pfPassword.getPassword());
             String username = "";
             String password = "";
+            // Empty Field Error
             if(user.isEmpty() || pass.isEmpty()){
                 JOptionPane.showMessageDialog(null,"Field Should Not Be Empty!!!");
             }else{
+                //Retrieve Credentials
                 try {
                     String path = "d:\\Users\\user\\Documents\\GitHub\\FinalGroupActivity\\UserInformationDontHack.txt";
                     File file = new File(path);
@@ -60,6 +63,7 @@ public class LogIn extends JFrame {
                         } //end of while loop
                         if(username.contains(user) && password.contains(pass)){
                             JOptionPane.showMessageDialog(null,"Login Successful.");
+                            //Reset Text Fields
                             tfUsername.setText("");
                             pfPassword.setText("");
                         }else{
