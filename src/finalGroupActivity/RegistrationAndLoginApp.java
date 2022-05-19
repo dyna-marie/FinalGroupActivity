@@ -50,7 +50,7 @@ public class RegistrationAndLoginApp extends JFrame{
         });
         createAnAccountButton.setBackground(Color.gray);
         registrationAndLoginForm.add(createAnAccountButton);
-    }
+    } //end of show() method
 
     public static void main (String[]args){
         SwingUtilities.invokeLater(new Runnable() {
@@ -59,6 +59,6 @@ public class RegistrationAndLoginApp extends JFrame{
                 new RegistrationAndLoginApp().show();
             }
         });
-    }
-}
+    } //end of main method
+} //end of RegistrationAndLoginApp class
 
