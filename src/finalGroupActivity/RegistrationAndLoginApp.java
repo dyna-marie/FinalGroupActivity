@@ -14,6 +14,7 @@ public class RegistrationAndLoginApp extends JFrame{
         frame.setMinimumSize(new Dimension(490, 500));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
+        frame.setResizable(false);
         frame.setVisible(true);
         frame.add(registrationAndLoginForm);
 
